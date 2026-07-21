@@ -30,7 +30,7 @@ Your score climbs automatically the longer you survive. Jump cleanly over an obs
 
 ## Installation
 
-1. Download the latest release for your platform (Windows / macOS / Linux) from the [Releases](#) section.
+1. Download the latest release for your platform (Windows / macOS / Linux) from the [Releases](https://github.com/akramsts/pc-game/releases) section.
 2. Extract the archive (if zipped).
 3. Run the executable (`GreeRunner.exe` on Windows, or the equivalent app/binary on macOS/Linux).
 4. Play!
