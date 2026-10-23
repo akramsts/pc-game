@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Gree Runner for Windows - Download</title>
+  <meta name="description" content="Gree Runner is an endless 2D runner. Jump obstacles, chain perfect jumps and chase your high score. Download it for Windows.">
+  <meta name="theme-color" content="#0b0c14">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:title" content="Gree Runner for Windows - Download">
+  <meta property="og:description" content="Gree Runner is an endless 2D runner. Jump obstacles, chain perfect jumps and chase your high score. Download it for Windows.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://akramsts.github.io/pc-game/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://akramsts.github.io/pc-game/">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="glow-wrap" aria-hidden="true">
+    <div class="glow"></div>
+  </div>
+
+  <div class="wrap">
+    <nav class="top" aria-label="Back">
+      <a href="https://akramsts.github.io/portfolio/">← Akram</a>
+    </nav>
+
+    <main>
+      <div class="hero">
+        <div class="app-tile">
+          <img src="icon.png" alt="Gree Runner app icon" width="120" height="120" fetchpriority="high">
+        </div>
+        <p class="meta">Windows game</p>
+        <h1>Gree Runner</h1>
+        <p class="tagline">An endless 2D runner. Jump obstacles and chase your high score.</p>
+        <div class="actions">
+          <a href="https://github.com/akramsts/pc-game/releases/download/1.0/GreeRunner-Setup.exe" class="btn primary download-link" data-label="Gree Runner for Windows">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download for Windows
+          </a>
+          <a href="https://akramsts.github.io/web-game/" class="btn ghost" target="_blank" rel="noopener noreferrer">Play in browser</a>
+          <a href="https://github.com/akramsts/pc-game" class="source" target="_blank" rel="noopener noreferrer">Source →</a>
+        </div>
+      </div>
+
+      <section class="about">
+        <h2>About</h2>
+        <p>An endless 2D runner. Jump obstacles, chain perfect jumps for bonus points and chase your high score. One codebase, three real releases, with touch, mouse and keyboard controls.</p>
+        <p class="tags">JavaScript · Web Audio · Android · Windows</p>
+      </section>
+
+      <section>
+        <h2>Install</h2>
+        <ol class="steps">
+          <li><span>Download <b>GreeRunner-Setup.exe</b> to your PC.</span></li>
+          <li><span>Run the installer.</span></li>
+          <li><span>If Windows SmartScreen appears, choose <b>More info</b>, then <b>Run anyway</b>.</span></li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>More from Akram</h2>
+        <div class="more">
+          <a href="https://akramsts.github.io/android-game/">Gree Runner for Android</a>
+          <a href="https://akramsts.github.io/web-game/">Play in browser</a>
+          <a href="https://akramsts.github.io/vsearch/">VSearch</a>
+          <a href="https://akramsts.github.io/vsave/">VSave</a>
+          <a href="https://akramsts.github.io/portfolio/">Portfolio</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2026 Akram · <a href="https://akramsts.github.io/browser/">Browser</a>
+    </footer>
+  </div>
+
+  <div id="confirmModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalMessage">
+    <div class="modal-card">
+      <h2 id="modalTitle">Confirm download</h2>
+      <p class="modal-text" id="modalMessage"></p>
+      <div class="modal-actions">
+        <button type="button" class="btn ghost" id="modalCancelBtn">Cancel</button>
+        <button type="button" class="btn primary" id="modalConfirmBtn">Download</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+
+</html>
