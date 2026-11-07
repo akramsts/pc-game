@@ -1,3 +1,5 @@
+window.name = 'GreeWindowsTab';
+
 (function () {
   'use strict';
 
@@ -50,7 +52,7 @@
   });
 
   confirmBtn.addEventListener('click', function () {
-    if (currentUrl) window.open(currentUrl, '_blank', 'noopener');
+    if (currentUrl) window.open(currentUrl, 'DownloadTab');
     closeModal();
   });
 
